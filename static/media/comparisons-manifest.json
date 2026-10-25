@@ -1,0 +1,62 @@
+{
+  "qualitative-comparison": {
+    "sources": [
+      {
+        "label": "MEVG",
+        "path": "figure4/mevg.mp4",
+        "sha256": "9f00c3241cfa04583cd05696c10f653a7d030bb4ebcbdd5cc8baa352387d150d"
+      },
+      {
+        "label": "Video-Infinity",
+        "path": "figure4/video-infinity.mp4",
+        "sha256": "8adf097af02ccfba58571a86e965c5b6b66d4c2f91ee40b32e2042b63b9b3b2c"
+      },
+      {
+        "label": "DiTCtrl",
+        "path": "figure4/ditctrl.mp4",
+        "sha256": "cd29f943b87d6ab24aad72525b2d854fd0236d7af929173681edac0422897a89"
+      },
+      {
+        "label": "FreqSync (Ours)",
+        "path": "figure4/freqsync(ours).mp4",
+        "sha256": "9141418eb273306b38565813b21345b24b34ffbf366e7b9eeab56b2c3c8c9dfd"
+      }
+    ],
+    "duration": 9.0625,
+    "width": 1440,
+    "height": 1120,
+    "fps": 16,
+    "bytes": 4468779,
+    "timing": "Original playback speed. Shorter clips hold their last frame."
+  },
+  "ablation-comparison": {
+    "sources": [
+      {
+        "label": "Isolated",
+        "path": "消融实验视频/isolated/LIGHTING_01.mp4",
+        "sha256": "4cb542c56dd253cec449b2a2b6d18dfbadcb2173858e3e360b93ea72f6c7e74e"
+      },
+      {
+        "label": "w/o FS-SCA (RCSS only)",
+        "path": "消融实验视频/w_o_fssca/LIGHTING_01.mp4",
+        "sha256": "dd3b7bbeb77c92392d8a51e7b0fd25002ac3ee1c3b1baa0dee794fba0ef7a345"
+      },
+      {
+        "label": "w/o RCSS (FS-SCA only)",
+        "path": "消融实验视频/w_o_rcss/LIGHTING_01.mp4",
+        "sha256": "b7a31dd64edeeaed261808a2b3f0a698bfdcc9a07852adf4a5f4668408ec0056"
+      },
+      {
+        "label": "Full FreqSync",
+        "path": "消融实验视频/full/LIGHTING_01.mp4",
+        "sha256": "9fa4b2a6d3eaef3b5d1c06c1f00c2cf530f6068ec85d247e5eb9ed2d25943ab8"
+      }
+    ],
+    "duration": 6.0625,
+    "width": 1440,
+    "height": 1120,
+    "fps": 16,
+    "bytes": 2649977,
+    "timing": "Original playback speed. Shorter clips hold their last frame."
+  }
+}

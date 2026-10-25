@@ -1,0 +1,121 @@
+{
+  "teaser-rowboat": {
+    "source": "figure1/Teaser_01.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 1191279,
+    "source_sha256": "048bcce6f8671b791a2db294f03ed90942aad64cfaac45bb41f5f65277d4abc3"
+  },
+  "teaser-motorcycle": {
+    "source": "figure1/Teaser_02.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 1892232,
+    "source_sha256": "0fba8cbd8af6337eb27af2f50ed4881b6bac33afacb85f58d41a9d71451be85f"
+  },
+  "diagnostic-ditctrl": {
+    "source": "figure2/ditctrl.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 1309603,
+    "source_sha256": "0f79b91f40bbf9e422d6f8e9b42989363e3fcbd68dfbe4771efef1a9ac6df76f"
+  },
+  "diagnostic-freqsync": {
+    "source": "figure2/freqsync_01.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 1205905,
+    "source_sha256": "b57d1ee631ec1513ad6a7d919ab817338467eb2c129f16abd16ef9d6138367ac"
+  },
+  "diagnostic-infinity": {
+    "source": "figure2/video-infinity.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 2844994,
+    "source_sha256": "28e0c49d092d1155f3ca9c451e188e48169d508db2affbf3a66188de48e8d8f7"
+  },
+  "car-ditctrl": {
+    "source": "figure4/ditctrl.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 1024866,
+    "source_sha256": "cd29f943b87d6ab24aad72525b2d854fd0236d7af929173681edac0422897a89"
+  },
+  "car-freqsync": {
+    "source": "figure4/freqsync(ours).mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 829760,
+    "source_sha256": "9141418eb273306b38565813b21345b24b34ffbf366e7b9eeab56b2c3c8c9dfd"
+  },
+  "car-mevg": {
+    "source": "figure4/mevg.mp4",
+    "width": 256,
+    "height": 256,
+    "bytes": 365496,
+    "source_sha256": "9f00c3241cfa04583cd05696c10f653a7d030bb4ebcbdd5cc8baa352387d150d"
+  },
+  "car-infinity": {
+    "source": "figure4/video-infinity.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 1640343,
+    "source_sha256": "8adf097af02ccfba58571a86e965c5b6b66d4c2f91ee40b32e2042b63b9b3b2c"
+  },
+  "dog": {
+    "source": "figure8&9&10&11/dog.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 1769319,
+    "source_sha256": "c3ea8ff465931d4b9d619c1cd1c39906ae04735e7de310d7cac9e69393287e03"
+  },
+  "fishing-boat": {
+    "source": "figure8&9&10&11/fishing_boat.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 735197,
+    "source_sha256": "0c5cd8003c8ae5509ae1e1f5af4737ae4976d42ffe24eba328a1d99f06eb0bf7"
+  },
+  "fox-wolf": {
+    "source": "figure8&9&10&11/fox_wolf.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 1483829,
+    "source_sha256": "813db5f10e57c54e4f97c2cb5fc32c97d93d429e821e3870fd8d81d522b18fff"
+  },
+  "hot-air-balloon": {
+    "source": "figure8&9&10&11/hot_air_balloon.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 1062929,
+    "source_sha256": "2060bbb4d37fd5dc7378ed1f11c40807409927d9662a2802b05c15aa912ff013"
+  },
+  "lighthouse": {
+    "source": "figure8&9&10&11/lighthouse.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 908260,
+    "source_sha256": "4d058e54d5a2c28d068a4f413d4634a566a5b0c4cc2f75653eae281031cb8f95"
+  },
+  "wooden-fishing-pier": {
+    "source": "figure8&9&10&11/wooden_fishing_pier.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 717898,
+    "source_sha256": "bfc1cee5a2ce06b97f53ce2d89d3fa7ebe545e327a56842b2faf58655b426669"
+  },
+  "young-pianist": {
+    "source": "figure8&9&10&11/young_pianist.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 615388,
+    "source_sha256": "b137e271d269f8ecbb03b62e23e46de54c53717491842b40ff39c166d939792e"
+  },
+  "young-violinist": {
+    "source": "figure8&9&10&11/young_violinist.mp4",
+    "width": 720,
+    "height": 480,
+    "bytes": 559003,
+    "source_sha256": "4f00d509d6dabd3ebce74db97dd5a5994a55bbccbcee4aa40c532ce50b695778"
+  }
+}

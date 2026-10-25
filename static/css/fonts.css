@@ -1,0 +1,5 @@
+/* Inter, the typeface used by Academic Project Page Template. */
+@font-face {
+ font-family: 'Inter'; font-style: normal; font-weight: 100 900; font-display: swap;
+ src: url('../fonts/inter-variable.ttf') format('truetype');
+}

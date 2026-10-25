@@ -1,0 +1,26 @@
+[
+  {
+    "family": "Google Sans",
+    "weight": "400",
+    "file": "google-sans-400.ttf",
+    "source": "https://fonts.gstatic.com/s/googlesans/v71/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIKli.ttf"
+  },
+  {
+    "family": "Google Sans",
+    "weight": "600",
+    "file": "google-sans-600.ttf",
+    "source": "https://fonts.gstatic.com/s/googlesans/v71/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzaJ6li.ttf"
+  },
+  {
+    "family": "Noto Sans",
+    "weight": "400",
+    "file": "noto-sans-400.ttf",
+    "source": "https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99d.ttf"
+  },
+  {
+    "family": "Noto Sans",
+    "weight": "600",
+    "file": "noto-sans-600.ttf",
+    "source": "https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAjBN9d.ttf"
+  }
+]

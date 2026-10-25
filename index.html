@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FreqSync | Frequency-Synchronized Boundary Coupling for Training-Free Multi-Prompt Long Video Generation</title>
+  <meta name="description" content="FreqSync synchronizes temporal frequencies across prompt boundaries for coherent, training-free multi-prompt long video generation. NeurIPS 2026.">
+  <meta name="author" content="Yipan Xu, Shuyong Gao, Jiyuan Fu, Keliang Yin, Jiayu Chen, Qianyu Guo, Yang Liu, Wenqiang Zhang">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://yipanxu-22.github.io/FreqSync/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FreqSync · NeurIPS 2026">
+  <meta property="og:description" content="Evolving prompts. One coherent video. Frequency-synchronized boundary coupling without additional training.">
+  <meta property="og:url" content="https://yipanxu-22.github.io/FreqSync/">
+  <meta property="og:image" content="https://yipanxu-22.github.io/FreqSync/static/images/social-preview.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FreqSync · NeurIPS 2026">
+  <meta name="twitter:description" content="Training-free multi-prompt long video generation with frequency-synchronized boundary coupling.">
+  <meta name="twitter:image" content="https://yipanxu-22.github.io/FreqSync/static/images/social-preview.jpg">
+  <meta name="citation_title" content="Frequency-Synchronized Boundary Coupling for Training-Free Multi-Prompt Long Video Generation">
+  <meta name="citation_author" content="Xu, Yipan">
+  <meta name="citation_author" content="Gao, Shuyong">
+  <meta name="citation_author" content="Fu, Jiyuan">
+  <meta name="citation_author" content="Yin, Keliang">
+  <meta name="citation_author" content="Chen, Jiayu">
+  <meta name="citation_author" content="Guo, Qianyu">
+  <meta name="citation_author" content="Liu, Yang">
+  <meta name="citation_author" content="Zhang, Wenqiang">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="Advances in Neural Information Processing Systems">
+  <meta name="citation_pdf_url" content="https://yipanxu-22.github.io/FreqSync/static/pdfs/freqsync-paper.pdf">
+  <link rel="icon" href="static/images/logo.png?v=3" type="image/png">
+  <link rel="stylesheet" href="static/css/fonts.css?v=template-1">
+  <link rel="stylesheet" href="static/css/freqsync.css?v=template-2">
+  <script defer src="static/js/freqsync.js?v=template-1"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<main id="main">
+  <header class="publication-header container" id="top">
+    <h1><span class="title-line"><img class="title-logo" src="static/images/logo.png" alt="" width="56" height="56">Frequency-Synchronized Boundary</span> <span class="title-line">Coupling for Training-Free <span class="keep-together">Multi-Prompt</span></span> <span class="title-line">Long Video Generation</span></h1>
+    <div class="authors">
+      <div class="author-row"><span><a href="https://yipanxu-22.github.io/FreqSync/" target="_blank" rel="noopener">Yipan Xu</a><sup>1</sup></span><span><a href="https://yipanxu-22.github.io/FreqSync/" target="_blank" rel="noopener">Shuyong Gao</a><sup>2,*</sup></span><span><a href="https://yipanxu-22.github.io/FreqSync/" target="_blank" rel="noopener">Jiyuan Fu</a><sup>1</sup></span><span><a href="https://yipanxu-22.github.io/FreqSync/" target="_blank" rel="noopener">Keliang Yin</a><sup>1</sup></span><span><a href="https://yipanxu-22.github.io/FreqSync/" target="_blank" rel="noopener">Jiayu Chen</a><sup>1</sup></span></div>
+      <div class="author-row"><span><a href="https://yipanxu-22.github.io/FreqSync/" target="_blank" rel="noopener">Qianyu Guo</a><sup>3</sup></span><span><a href="https://yipanxu-22.github.io/FreqSync/" target="_blank" rel="noopener">Yang Liu</a><sup>4</sup></span><span><a href="https://yipanxu-22.github.io/FreqSync/" target="_blank" rel="noopener">Wenqiang Zhang</a><sup>1,*</sup></span></div>
+    </div>
+    <div class="affiliations"><p><sup>1</sup> Shanghai Key Lab of Intelligent Information Processing,<br>College of Computer Science and Artificial Intelligence, Fudan University</p><p><sup>2</sup> Naval Medical Center of PLA, Second Military Medical University</p><p><sup>3</sup> Shanghai Institute of Virology, Shanghai Jiao Tong University<br><sup>4</sup> College of Electronic and Information Engineering, Tongji University</p></div>
+    <p class="venue">NeurIPS 2026</p>
+    <p class="corresponding">* Corresponding authors</p>
+    <div class="publication-links">
+      <a class="resource" href="static/pdfs/freqsync-paper.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6M9 16h6"/></svg>Paper</a>
+      <a class="resource" href="https://github.com/YipanXu-22/FreqSync" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1-4-2-6-2m12 5v-4a3.5 3.5 0 0 0-1-3c3 0 6-1 6-6a4.7 4.7 0 0 0-1-3c0-1 0-2-1-3-2 0-3 1-3 1a11 11 0 0 0-6 0S8 3 6 3C5 4 5 5 5 6a4.7 4.7 0 0 0-1 3c0 5 3 6 6 6a3.5 3.5 0 0 0-1 3v4"/></svg>Code</a>
+      <a class="resource" href="https://neurips.cc/virtual/2026/loc/sydney/poster/148279" target="_blank" rel="noopener">NeurIPS ↗</a>
+    </div>
+  </header>
+
+  <section class="teaser container" aria-label="FreqSync teaser">
+    <figure><a href="static/figures/freqsync_teaser.pdf" target="_blank" rel="noopener" aria-label="Open the original teaser figure"><img src="static/figures/freqsync_teaser.webp" alt="FreqSync teaser: coherent rowboat and motorcyclist sequences across three changing environments" width="2400" height="926"></a><figcaption>Given a prompt sequence, <span class="method-name">FreqSync</span> generates coherent long videos with smooth transitions, stable motion, and prompt-specific details.</figcaption></figure>
+  </section>
+
+  <section class="section shaded-section" id="abstract"><div class="container reading-width">
+    <h2>Abstract</h2>
+    <div class="content"><p id="paper-abstract">Text-to-video generation has made remarkable progress with diffusion models and transformer-based video architectures, yet generating coherent long videos from evolving textual descriptions remains challenging. Training long-video models from scratch requires substantial computation and large-scale multi-event data, while training-free multi-prompt generation must activate new prompt semantics without breaking temporal continuity. We identify a frequency-agnostic boundary coupling problem in existing transition strategies: weak coupling causes abrupt changes, flicker, and background jumps, whereas overly strong or coarse coupling may over-preserve source semantics and produce ghosting or duplicated subjects around prompt boundaries. To address this problem, we propose FreqSync, a training-free framework that formulates prompt transitions as frequency-selective boundary coupling. FreqSync combines Frequency-Synchronized Source-Conditioned Attention (FS-SCA) with Residual-Clipped Spectral Stitching (RCSS), enabling adjacent segments to share stable low- and mid-frequency structure and motion cues while keeping high-frequency prompt-specific details target-dominant under explicit residual constraints. Extensive experiments show that FreqSync achieves state-of-the-art transition smoothness and prompt alignment while maintaining strong perceptual video quality, demonstrating its effectiveness for coherent multi-prompt long video generation.</p></div>
+  </div></section>
+
+  <section class="section" id="method"><div class="container">
+    <h2>Method</h2>
+    <figure class="method-figure"><a href="static/figures/freqsync_overview.pdf" target="_blank" rel="noopener" aria-label="Open the original framework figure"><img src="static/figures/freqsync_overview.webp" alt="FreqSync framework: frozen prompt encoding, overlap noise reuse, FS-SCA attention, RCSS stitching, overlap removal, and VAE decoding" loading="lazy"></a></figure>
+    <div class="content"><p><strong>Overview of FreqSync.</strong> Given a prompt sequence, FreqSync first encodes frozen text conditions and initializes overlapped latent segments with noise reuse. During iterative denoising, <strong>FS-SCA</strong> performs frequency-synchronized source-conditioned attention inside selected attention layers, while <strong>RCSS</strong> applies residual-clipped spectral stitching to denoised overlap predictions before the sampler update. After denoising, overlapped regions are removed and the clean latent segments are concatenated for VAE decoding, producing the final long video.</p>
+    <p>FS-SCA transfers low- and mid-frequency continuity cues while preserving target-dominant details, and RCSS aligns denoised overlap predictions under residual constraints for stable stitching. Extensive quantitative, qualitative, diagnostic, and ablation results demonstrate that FreqSync improves transition smoothness, prompt alignment, and overall video quality without additional training, providing an effective solution for coherent multi-prompt long video generation.</p></div>
+  </div></section>
+
+  <section class="section shaded-section" id="comparisons"><div class="container">
+    <h2>Qualitative Comparisons</h2>
+    <div class="content"><p>We compare FreqSync with MEVG, Video-Infinity, and DiTCtrl on a three-prompt driving sequence: a sunlit alpine road, a foggy highland road, and a night road with city glow. FreqSync preserves vehicle identity and motion while producing smoother semantic transitions.</p></div>
+    <video width="1440" height="1120" controls muted loop playsinline preload="none" poster="static/posters/qualitative-comparison.jpg" aria-label="Qualitative comparison of MEVG, Video-Infinity, DiTCtrl, and FreqSync"><source src="static/media/qualitative-comparison.mp4" type="video/mp4">Your browser does not support HTML video.</video>
+  </div></section>
+
+  <section class="section" id="ablation"><div class="container">
+    <h2>Ablation Study</h2>
+    <div class="content"><p>We visualize a transition from blue dawn light to clean noon light. Isolated generation produces a hard cut. RCSS alone smooths the overlap region but lacks attention-level semantic handover. FS-SCA alone preserves the global layout but changes the chapel structure. Full FreqSync combines both modules for smooth transitions and stable identity.</p></div>
+    <video width="1440" height="1120" controls muted loop playsinline preload="none" poster="static/posters/ablation-comparison.jpg" aria-label="Ablation comparison: isolated, without FS-SCA, without RCSS, and full FreqSync"><source src="static/media/ablation-comparison.mp4" type="video/mp4">Your browser does not support HTML video.</video>
+  </div></section>
+
+  <section class="section demos-section" id="demos"><div class="container wide">
+    <h2>More FreqSync Demos</h2>
+    <div class="demo-grid"><figure class="demo"><figcaption><span class="prompt-base">A small rowboat</span><span class="prompt-flow"><span>reed-lined marsh</span> <span class="prompt-arrow">→</span> <span>lotus pond</span> <span class="prompt-arrow">→</span> <span>mirror-like salt flat pool</span></span></figcaption><video width="720" height="480" controls muted loop playsinline preload="none" poster="static/posters/teaser-rowboat.jpg" aria-label="A small rowboat: reed-lined marsh → lotus pond → mirror-like salt flat pool"><source src="static/media/teaser-rowboat.mp4" type="video/mp4">Your browser does not support HTML video.</video></figure>
+<figure class="demo"><figcaption><span class="prompt-base">A motorcyclist in black gear</span><span class="prompt-flow"><span>industrial district road</span> <span class="prompt-arrow">→</span> <span>forest highway</span> <span class="prompt-arrow">→</span> <span>desert highway</span> <span class="prompt-arrow">→</span> <span>rainy city bridge</span> <span class="prompt-arrow">→</span> <span>icy arctic road</span></span></figcaption><video width="720" height="480" controls muted loop playsinline preload="none" poster="static/posters/teaser-motorcycle.jpg" aria-label="A motorcyclist in black gear: industrial district road → forest highway → desert highway → rainy city bridge → icy arctic road"><source src="static/media/teaser-motorcycle.mp4" type="video/mp4">Your browser does not support HTML video.</video></figure>
+<figure class="demo"><figcaption><span class="prompt-base">A lighthouse</span><span class="prompt-flow"><span>gray storm light</span> <span class="prompt-arrow">→</span> <span>silver post-rain light</span> <span class="prompt-arrow">→</span> <span>orange sunset light</span></span></figcaption><video width="720" height="480" controls muted loop playsinline preload="none" poster="static/posters/lighthouse.jpg" aria-label="A lighthouse: gray storm light → silver post-rain light → orange sunset light"><source src="static/media/lighthouse.mp4" type="video/mp4">Your browser does not support HTML video.</video></figure>
+<figure class="demo"><figcaption><span class="prompt-base">A hot air balloon</span><span class="prompt-flow"><span>early sunrise glow</span> <span class="prompt-arrow">→</span> <span>bright daylight</span> <span class="prompt-arrow">→</span> <span>violet dusk light</span></span></figcaption><video width="720" height="480" controls muted loop playsinline preload="none" poster="static/posters/hot-air-balloon.jpg" aria-label="A hot air balloon: early sunrise glow → bright daylight → violet dusk light"><source src="static/media/hot-air-balloon.mp4" type="video/mp4">Your browser does not support HTML video.</video></figure>
+<figure class="demo"><figcaption><span class="prompt-base">A fishing boat</span><span class="prompt-flow"><span>misty lake morning</span> <span class="prompt-arrow">→</span> <span>open ocean sunset</span></span></figcaption><video width="720" height="480" controls muted loop playsinline preload="none" poster="static/posters/fishing-boat.jpg" aria-label="A fishing boat: misty lake morning → open ocean sunset"><source src="static/media/fishing-boat.mp4" type="video/mp4">Your browser does not support HTML video.</video></figure>
+<figure class="demo"><figcaption><span class="prompt-base">A wooden fishing pier</span><span class="prompt-flow"><span>misty sunrise light</span> <span class="prompt-arrow">→</span> <span>golden sunset light</span></span></figcaption><video width="720" height="480" controls muted loop playsinline preload="none" poster="static/posters/wooden-fishing-pier.jpg" aria-label="A wooden fishing pier: misty sunrise light → golden sunset light"><source src="static/media/wooden-fishing-pier.mp4" type="video/mp4">Your browser does not support HTML video.</video></figure>
+<figure class="demo"><figcaption><span class="prompt-flow"><span>A white husky</span> <span class="prompt-arrow">→</span> <span>A golden retriever</span></span></figcaption><video width="720" height="480" controls muted loop playsinline preload="none" poster="static/posters/dog.jpg" aria-label="A white husky → A golden retriever"><source src="static/media/dog.mp4" type="video/mp4">Your browser does not support HTML video.</video></figure>
+<figure class="demo"><figcaption><span class="prompt-flow"><span>A red fox</span> <span class="prompt-arrow">→</span> <span>A gray wolf</span></span></figcaption><video width="720" height="480" controls muted loop playsinline preload="none" poster="static/posters/fox-wolf.jpg" aria-label="A red fox → A gray wolf"><source src="static/media/fox-wolf.mp4" type="video/mp4">Your browser does not support HTML video.</video></figure>
+<figure class="demo"><figcaption><span class="prompt-base">A pianist</span><span class="prompt-flow"><span>dim rehearsal worklight</span> <span class="prompt-arrow">→</span> <span>balanced concert spotlight</span> <span class="prompt-arrow">→</span> <span>glittering gala lighting</span></span></figcaption><video width="720" height="480" controls muted loop playsinline preload="none" poster="static/posters/young-pianist.jpg" aria-label="A pianist: dim rehearsal worklight → balanced concert spotlight → glittering gala lighting"><source src="static/media/young-pianist.mp4" type="video/mp4">Your browser does not support HTML video.</video></figure>
+<figure class="demo"><figcaption><span class="prompt-base">A young violinist</span><span class="prompt-flow"><span>calm and focused</span> <span class="prompt-arrow">→</span> <span>joyful and uplifted</span></span></figcaption><video width="720" height="480" controls muted loop playsinline preload="none" poster="static/posters/young-violinist.jpg" aria-label="A young violinist: calm and focused → joyful and uplifted"><source src="static/media/young-violinist.mp4" type="video/mp4">Your browser does not support HTML video.</video></figure></div>
+  </div></section>
+
+  <section class="section shaded-section" id="poster"><div class="container poster-container">
+    <h2>Poster</h2>
+    <a class="poster-preview" href="static/images/freqsync-poster.jpg" target="_blank" rel="noopener" aria-label="Open the full-resolution FreqSync poster"><img src="static/images/freqsync-poster.jpg" alt="FreqSync research poster with the method framework, comparisons and ablation results" loading="lazy" width="4380" height="2571"></a>
+  </div></section>
+
+  <section class="section" id="bibtex"><div class="container">
+    <div class="citation-heading"><h2>BibTeX</h2><span id="copy-status" role="status" aria-live="polite"></span><button id="copy-citation" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5V3h8l4 4v12H9z"/><path d="M5 7H3v14h12v-2M16 3v5h5"/></svg><span class="copy-text">Copy</span></button></div>
+    <pre><code id="citation-text">@inproceedings{xu2026freqsync,
+  title     = {Frequency-Synchronized Boundary Coupling for Training-Free Multi-Prompt Long Video Generation},
+  author    = {Xu, Yipan and Gao, Shuyong and Fu, Jiyuan and Yin, Keliang and Chen, Jiayu and Guo, Qianyu and Liu, Yang and Zhang, Wenqiang},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2026},
+  url       = {https://yipanxu-22.github.io/FreqSync/}
+}</code></pre>
+  </div></section>
+</main>
+<footer><div class="container"><p>This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank" rel="noopener">Academic Project Page Template</a>.</p><p>This website is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p></div></footer>
+</body>
+</html>

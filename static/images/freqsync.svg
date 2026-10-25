@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>FreqSync — synchronized waves</title>
+  <rect width="64" height="64" rx="16" fill="#2563eb"/>
+  <g fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round">
+    <path d="M12 26 C19 26 19 16 26 16 S33 26 40 26 S47 16 52 16"/>
+    <path d="M12 46 C19 46 19 36 26 36 S33 46 40 46 S47 36 52 36"/>
+  </g>
+</svg>
